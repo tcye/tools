@@ -1,2 +1,2 @@
 #!/bin/sh
-rsync -avzP --delete --exclude ".*" --exclude "*__pycache__*" --iconv=GBK,UTF-8 /cygdrive/e/workspace yetiancai@gz-gpu005.cvmarcher.cn:/home/yetiancai/
+rsync -e "ssh -i /cygdrive/c/Users/Administrator/Documents/SSH_Keys/IdentityOpenSSH" -avzP --delete --exclude ".*" --exclude "*__pycache__*" --iconv=GBK,UTF-8 /cygdrive/e/workspace yetiancai@gz-gpu005.cvmarcher.cn:/home/yetiancai/
