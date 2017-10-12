@@ -10,4 +10,5 @@ rsync -e "ssh -i /cygdrive/c/Users/Administrator/Documents/SSH_Keys/IdentityOpen
 --exclude train.log \
 --exclude img_list \
 --exclude ann_map \
+--exclude *.npy \
 /cygdrive/e/workspace yetiancai@gz-gpu005.cvmarcher.cn:/home/yetiancai/
