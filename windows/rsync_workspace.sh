@@ -1,5 +1,5 @@
 #!/bin/sh
-rsync -e "ssh -i /cygdrive/c/Users/Administrator/Documents/SSH_Keys/IdentityOpenSSH" \
+rsync \
 -avzP --delete \
 --exclude .vs \
 --exclude .idea \
@@ -15,4 +15,4 @@ rsync -e "ssh -i /cygdrive/c/Users/Administrator/Documents/SSH_Keys/IdentityOpen
 --exclude *.rec \
 --exclude *.lst \
 --exclude *.idx \
-/cygdrive/e/workspace yetiancai@gz-gpu005.cvmarcher.cn:/home/yetiancai/
+/cygdrive/g/workspace yetiancai@gz-gpu005.cvmarcher.cn:/home/yetiancai/

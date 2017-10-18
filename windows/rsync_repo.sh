@@ -1,5 +1,5 @@
 #!/bin/sh
-rsync -e "ssh -i /cygdrive/c/Users/Administrator/Documents/SSH_Keys/IdentityOpenSSH" \
+rsync \
 -avzP --delete \
 --exclude .vs \
 --exclude .idea \
@@ -11,4 +11,4 @@ rsync -e "ssh -i /cygdrive/c/Users/Administrator/Documents/SSH_Keys/IdentityOpen
 --exclude mxnet_tcye/bin \
 --exclude build/ \
 --exclude lib/ \
-/cygdrive/e/repo yetiancai@gz-gpu005.cvmarcher.cn:/home/yetiancai/
+/cygdrive/g/repo yetiancai@gz-gpu005.cvmarcher.cn:/home/yetiancai/
